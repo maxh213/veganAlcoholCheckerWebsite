@@ -1,0 +1,11 @@
+{release,{"veganAlcoholCheckerWebsite_release","1"},
+         {erts,"7.3"},
+         [{stdlib,"2.8"},
+          {kernel,"4.2"},
+          {crypto,"3.6.3"},
+          {cowlib,"1.0.2"},
+          {ranch,"1.2.1"},
+          {cowboy,"1.0.4"},
+          {veganAlcoholCheckerWebsite,"0.1.0"},
+          {sasl,"2.7"},
+          {runtime_tools,"1.9.3"}]}. 
