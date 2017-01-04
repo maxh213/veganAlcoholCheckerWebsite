@@ -1,1 +1,0 @@
-DB_CONNECT_STRING = "postgres://postgres:towardsFullFitness@46.101.96.151:32777/main";
