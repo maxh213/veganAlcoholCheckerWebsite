@@ -2,19 +2,22 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/stylesheet.css')
+    link(rel='stylesheet', href='/stylesheets/skeleton.css')
+
   body
     block content
-    div
-      table
-        thead
-          tr
-            th Name
-            th Vegan?
-            th Brewed in Country
-        tbody
-          each alcohol in alcohols
+    div.container
+      div.row
+        table
+          thead
             tr
-              td #{alcohol.name}
-              td #{alcohol.isVegan}
-              td #{alcohol.country}
+              th Name
+              th Vegan?
+              th Brewed in Country
+          tbody
+            each alcohol in alcohols
+              tr
+                td #{alcohol.name}
+                td #{alcohol.isVegan}
+                td #{alcohol.country}
