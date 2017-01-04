@@ -19,5 +19,8 @@ html
             each alcohol in alcohols
               tr
                 td #{alcohol.name}
-                td #{alcohol.isVegan}
+                if alcohol.isVegan == "Vegan Friendly"
+                  td.vegan #{alcohol.isVegan}
+                else 
+                  td.notVegan #{alcohol.isVegan}
                 td #{alcohol.country}

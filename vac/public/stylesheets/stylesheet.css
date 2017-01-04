@@ -2,7 +2,10 @@ table {
 	width: 100%;
 }
 
-td {
-	border-width: 1px;
-	border-color: black;
+.vegan {
+	color: MediumSeaGreen;
+}
+
+.notVegan {
+	color: Crimson;
 }
