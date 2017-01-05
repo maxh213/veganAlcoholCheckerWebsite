@@ -44,7 +44,7 @@ function runQuery(queryString, queryValues, res) {
 						}
 					);
 				}
-			  	res.render('layout', { alcohols: alcohols});
+			  	res.render('layout', { title: 'Vegan Alcohol Checker', alcohols: alcohols});
 			}
 			
 		});
