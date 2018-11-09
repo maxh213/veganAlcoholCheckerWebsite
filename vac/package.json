@@ -16,7 +16,7 @@
     "morgan": "~1.9.0",
     "serve-favicon": "~2.4.5",
     "stylus": "0.54.5",
-    "snyk": "^1.106.0"
+    "snyk": "^1.108.2"
   },
   "snyk": true
 }
